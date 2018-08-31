@@ -16,7 +16,7 @@ def current_player(board)
   #  returns current player = 'Y' for second move
 
   count = turn_count(board)
-  if count % 2 = 0
+  if count % 2 == 0
     player = 'Y'
   else
     player = 'X'
