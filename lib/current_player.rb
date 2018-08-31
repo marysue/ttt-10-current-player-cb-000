@@ -14,9 +14,10 @@ def turn_count(board)
       puts "board = #{entry}"
       count += 1
     else
-      puts "board = #{entry}"
+      puts "board = empty #{entry}"
    end
  end
+ puts "counted:  #{count}"
  return count
 end
 
