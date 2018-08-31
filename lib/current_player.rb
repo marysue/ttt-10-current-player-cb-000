@@ -6,7 +6,7 @@ def turn_count(board)
     puts "board#{i} = entry}"
     i += 1
   end
-  
+
   count = 0
   board.each do| entry |
     if entry == "X" || entry == "Y"
