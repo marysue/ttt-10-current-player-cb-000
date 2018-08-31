@@ -1,6 +1,12 @@
 def turn_count(board)
   #board = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
   #turn_count = 3
+  i = 0
+  board.each do | entry |
+    puts "board#{i} = entry}"
+    i += 1
+  end
+  
   count = 0
   board.each do| entry |
     if entry == "X" || entry == "Y"
@@ -17,8 +23,10 @@ def current_player(board)
 
   count = turn_count(board)
   if count % 2 == 0
+    puts "count = #{count}, player = 'X'"
     player = 'X'
   else
+    puts "count = #{count}, player = 'O'"
     player = 'O'
   end
   return player
