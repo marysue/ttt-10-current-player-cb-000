@@ -2,7 +2,7 @@ def turn_count(board)
   #board = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
   #turn_count = 3
   count = 0
-  board.each do| entry | 
+  board.each do| entry |
     if entry == 'X' || entry == 'Y'
       count += 1
    end
