@@ -11,7 +11,10 @@ def turn_count(board)
   count = 0
   board.each do| entry |
     if entry == "X" || entry == "Y"
+      puts "board = #{entry}"
       count += 1
+    else
+      puts "board = #{entry}"
    end
  end
  return count
