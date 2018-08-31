@@ -3,7 +3,7 @@ def turn_count(board)
   #turn_count = 3
   i = 0
   board.each do | entry |
-    puts "board#{i} = entry}"
+    puts "board[#{i}] = #{entry}}"
     i += 1
   end
 
